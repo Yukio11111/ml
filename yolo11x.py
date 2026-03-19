@@ -8,8 +8,6 @@ from sklearn.model_selection import train_test_split
 from ultralytics import YOLO
 
 def main():
-  print ("мяу блять")
-  
   
   print("-" * 30)
   print("Torch:", torch.version)
@@ -126,5 +124,5 @@ def main():
   
   print(f"Сабмишен сохранен в: {os.path.join(PROJECT_DIR, 'submission.csv')}")
 
-if name == 'main':
+if __name__ == '__main__':
   main()
