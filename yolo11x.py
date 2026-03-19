@@ -6,11 +6,7 @@ import pandas as pd
 from pathlib import Path
 from sklearn.model_selection import train_test_split
 from ultralytics import YOLO
-import kagglehub
 
-
-os.environ["KAGGLE_USERNAME"] = "yukio0"
-os.environ["KAGGLE_KEY"] = "d25a704185544b02c5733e22ff12b009"
 def main():
   print ("мяу блять")
   
